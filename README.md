@@ -1,27 +1,50 @@
-# EdieHomepageMaster
+# Edie Homepage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+<h1 align="center">Edie Homepage</h1>
 
-## Development server
+<div align="center">
+   Solution for a challenge from <a href="http://devchallenges.io">devChallenges.io</a>.
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<div align="center">
+  <h3>
+    <a href="https://devchallenges-edie-homepage.vercel.app">Demo</a>
+    <span> | </span>
+    <a href="https://www.github.com/marvinrusinek/devchallenges-edie-homepage">Solution</a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">Challenge</a>
+  </h3>
+</div>
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Overview
+  - Built With
+- Features
+- Contact
 
-## Build
+<!-- OVERVIEW -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Overview
 
-## Running unit tests
+<b>Screenshot:</b> 
+<img src="http://www.marvinrusinek.com/portfolio-projects/devchallenges-edie-homepage.png" align="center">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Live demo can be found here: https://devchallenges-edie-homepage.vercel.app
+- The webpage was relatively easy to develop using Angular framework.
+- I used Angular 11, HTML5, SCSS, CSS Grid and media queries to make the page responsive for mobile devices.
 
-## Running end-to-end tests
+### Built With
+- Angular (https://www.angular.io/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Features
+This webpage was created as a submission to a DevChallenges (https://www.devchallenges.io/challenges) challenge. The challenge (https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build a webpage that satisfies the following user stories:
 
-## Further help
+- <b>User story:</b> I can see a page following the given design
+- <b>User story:</b> I can see a page on mobile following the given design
+- <b>User story:</b> I can go to certain locations by selecting links in navigation or footer
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact
+- Website [marvinrusinek.com] (http://www.marvinrusinek.com)
+- GitHub [@marvinrusinek] (https://www.github.com/marvinrusinek)
+- Twitter [@marvinrusinek] (https://www.twitter.com/marvinrusinek)
