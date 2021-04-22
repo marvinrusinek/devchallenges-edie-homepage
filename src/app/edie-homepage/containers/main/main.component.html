@@ -1,0 +1,245 @@
+<main>
+  <header>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header col-2">
+              <a class="navbar-brand" href="#">
+                <span class="navbar-text">Edie</span>
+              </a>
+            </div>
+            <button class="navbar-toggler navbar-toggler-right collapsed d-lg-none" type="button"
+                    data-toggle="collapse" data-bs-toggle="collapse"
+                    data-target="#collapsableNavbar" data-bs-target="#collapsableNavbar"
+                    aria-controls="collapsableNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">&#9776;</span>
+              <span class="my-1 mx-2 close">X</span>
+            </button>
+
+            <div class="col-10 justify-content-end nav-menu" id="collapsableNavbar">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" (click)="navigateToSection('')" fragment="">Home
+                    <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click)="navigateToSection('services')" fragment="services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click)="navigateToSection('works')" fragment="works">Our Works</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click)="navigateToSection('clients')" fragment="clients">Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" (click)="navigateToSection('contact')" fragment="contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Unhappy with your website?</h2>
+      <h1>We create beautiful and fast web services</h1>
+    </div>
+    <img src="assets/images/heroImage.jpg" loading="lazy" alt="hero image" title="hero image" />
+  </section>
+
+  <section class="contact">
+    <h1>Story, emotion and purpose</h1>
+    <p>We help transform your ideas into real world applications that will outperform your toughest competition and
+      help you achieve your strategic goals in short period of time.</p>
+
+    <div class="contact-form">
+      <h5>Want us to contact you?</h5>
+      <input type="email" placeholder="Email">
+      <button>Join</button>
+    </div>
+  </section>
+
+  <section id="services" class="services" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+    <h2>We offer high demand services</h2>
+
+    <ul class="services-list">
+      <li>
+        <div class="services-item-wrapper">
+          <span class="material-icons">create</span>
+          <h3>UI/UX Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.</p>
+          <button>Get Started</button>
+        </div>
+      </li>
+      <li>
+        <div class="services-item-wrapper">
+          <span class="material-icons">code</span>
+          <h3>Front End</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.</p>
+          <button>Get Started</button>
+        </div>
+      </li>
+      <li>
+        <div class="services-item-wrapper">
+          <span class="material-icons">format_list_bulleted</span>
+          <h3>Back End</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis
+            turpis.</p>
+          <button>Get Started</button>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="works" class="works">
+    <h2>Good design means good business</h2>
+
+    <div class="projects-container">
+      <div class="project" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+        <div class="project-wrapper">
+          <div class="project-image">
+            <img src="assets/images/smarthome.jpg" loading="lazy"
+                 alt="Smart home dashboard photo" title="Smart home dashboard photo" />
+          </div>
+          <div class="project-text">
+            <span class="project-type">Full stack application</span>
+            <span class="project-name">Smart home dashboard</span>
+          </div>
+        </div>
+      </div>
+      <div class="project" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+        <div class="project-wrapper">
+          <div class="project-image">
+            <img src="assets/images/onboard.png" loading="lazy" alt="Onboard app photo" title="Onboard app" />
+          </div>
+          <div class="project-text">
+            <span class="project-type">UX/UI design</span>
+            <span class="project-name">Onboard application</span>
+          </div>
+        </div>
+      </div>
+      <div class="project" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+        <div class="project-wrapper">
+          <div class="project-image">
+            <img src="assets/images/booking.png" loading="lazy" alt="Booking system photo" title="Booking system" />
+          </div>
+          <div class="project-text">
+            <span class="project-type">Mobile application</span>
+            <span class="project-name">Booking system</span>
+          </div>
+        </div>
+      </div>
+      <div class="project" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+        <div class="project-wrapper">
+          <div class="project-image">
+            <img src="assets/images/juice-product.png" loading="lazy"
+                 alt="Juice product homepage photo" title="Juice product homepage photo" />
+          </div>
+          <div class="project-text">
+            <span class="project-type">Front End application</span>
+            <span class="project-name">Juice product homepage</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="see-more">
+    <div class="link">
+      <a href="#">
+        see more <i class="material-icons">arrow_right_alt</i>
+      </a>
+    </div>
+  </section>
+
+  <section class="team" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+    <div class="team-about">
+      <h4>Meet the team</h4>
+      <h2>We are chilled and a laidback team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="team-photos">
+      <div class="left-column">
+        <img src="assets/images/person3.png" loading="lazy" alt="person3" title="person3" />
+      </div>
+      <div class="right-column">
+        <img src="assets/images/person1.png" loading="lazy" alt="person1" title="person1" />
+        <img src="assets/images/person2.png" loading="lazy" alt="person2" title="person2" />
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" class="clients" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+    <h2>&ldquo;Fast and outstanding results. Edie understands their customer&apos;s needs. They have a young and
+      talented team.&rdquo;</h2>
+
+    <div class="client">
+      <div class="client-image">
+        <img src="assets/images/person4.png" loading="lazy" alt="Carlos Tran" title="Carlos Tran" />
+      </div>
+      <div class="client-about">
+        <span class="client-name">Carlos Tran</span>
+        <span class="client-organization">The Decorate Gatsby</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <section class="footer-container">
+    <div class="footer-nav">
+      <nav>
+        <ul>
+          <li><a (click)="navigateToSection('')" fragment="">Home</a></li>
+          <li><a (click)="navigateToSection('services')" fragment="services">Services</a></li>
+          <li><a (click)="navigateToSection('works')" fragment="works">Our Works</a></li>
+          <li><a (click)="navigateToSection('clients')" fragment="clients">Clients</a></li>
+          <li><a (click)="navigateToSection('contact')" fragment="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="social-media">
+      <h1>Edie</h1>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="assets/images/instagram.svg" loading="lazy" alt="Instagram" title="Instagram" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="assets/images/linkedin.svg" loading="lazy" alt="LinkedIn" title="LinkedIn" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/" target="_blank">
+            <img src="assets/images/twitter.svg" loading="lazy" alt="Twitter" title="Twitter" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="contact" class="footer-contact" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+      <h5>Want us to contact you?</h5>
+      <div class="form">
+        <input type="email" placeholder="Email">
+        <button>Join</button>
+      </div>
+    </div>
+  </section>
+</footer>
+
+<section class="author">
+    <h6 class="text-center">created by&nbsp;<a target="_blank" rel="noopener noreferrer"
+        href="https://devchallenges.io/portfolio/marvinrusinek">marvinrusinek</a> @
+      <a target="_blank" rel="noopener noreferrer" href="https://www.devchallenges.io">devChallenges.io</a></h6>
+</section>
+
